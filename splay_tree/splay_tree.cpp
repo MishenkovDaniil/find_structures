@@ -92,7 +92,7 @@ Splay_pair Split (Splay_tree *splay_tree, Tkey key)
     {
         splay_tree->root = splay_node (ge_node);
         splays.splay_node_1 = splay_tree->root->left;
-        splays.splay_node_1->parent = nullptr;
+        if (splays.splay_node_1) splays.splay_node_1->parent = nullptr;
         splay_tree->root->left = nullptr;
         splays.splay_node_2 = splay_tree->root;
     }
