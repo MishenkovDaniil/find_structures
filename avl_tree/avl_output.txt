@@ -1,0 +1,20 @@
+size = 100000: 	insert time 	 = 92.22 ms, remove_time 	= 42.49 ms,
+				insert_sort_time = 65.24 ms, remove_sort_time = 28.03;
+size = 200000: 	insert time 	 = 203.42 ms, remove_time 	= 123.03 ms,
+				insert_sort_time = 143.02 ms, remove_sort_time = 61.45;
+size = 300000: 	insert time 	 = 306.99 ms, remove_time 	= 203.66 ms,
+				insert_sort_time = 222.47 ms, remove_sort_time = 91.73;
+size = 400000: 	insert time 	 = 470.01 ms, remove_time 	= 297.37 ms,
+				insert_sort_time = 300.71 ms, remove_sort_time = 126.73;
+size = 500000: 	insert time 	 = 606.90 ms, remove_time 	= 390.39 ms,
+				insert_sort_time = 393.02 ms, remove_sort_time = 157.98;
+size = 600000: 	insert time 	 = 780.51 ms, remove_time 	= 488.77 ms,
+				insert_sort_time = 463.11 ms, remove_sort_time = 191.28;
+size = 700000: 	insert time 	 = 971.71 ms, remove_time 	= 593.95 ms,
+				insert_sort_time = 545.03 ms, remove_sort_time = 226.56;
+size = 800000: 	insert time 	 = 1130.92 ms, remove_time 	= 707.41 ms,
+				insert_sort_time = 626.29 ms, remove_sort_time = 260.83;
+size = 900000: 	insert time 	 = 1338.85 ms, remove_time 	= 826.25 ms,
+				insert_sort_time = 711.94 ms, remove_sort_time = 294.91;
+size = 1000000: 	insert time 	 = 1534.35 ms, remove_time 	= 932.52 ms,
+				insert_sort_time = 800.50 ms, remove_sort_time = 331.89;
