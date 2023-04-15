@@ -1,0 +1,32 @@
+digraph
+{
+	node_70 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b3b0 | {parent = (nil)} | {key | 5} | {L (nil) | R 0x55956cb1b410}} "];
+	node_71 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b410 | {parent = 0x55956cb1b3b0} | {key | 7} | {L 0x55956cb1b3e0 | R 0x55956cb1b470}} "];
+	node_72 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b3e0 | {parent = 0x55956cb1b410} | {key | 6} | {L (nil) | R (nil)}} "];
+	node_71->node_72;
+	node_73 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b470 | {parent = 0x55956cb1b410} | {key | 9} | {L 0x55956cb1b440 | R 0x55956cb1b4d0}} "];
+	node_74 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b440 | {parent = 0x55956cb1b470} | {key | 8} | {L (nil) | R (nil)}} "];
+	node_73->node_74;
+	node_75 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b4d0 | {parent = 0x55956cb1b470} | {key | 11} | {L 0x55956cb1b4a0 | R 0x55956cb1b650}} "];
+	node_76 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b4a0 | {parent = 0x55956cb1b4d0} | {key | 10} | {L (nil) | R (nil)}} "];
+	node_75->node_76;
+	node_77 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b650 | {parent = 0x55956cb1b4d0} | {key | 19} | {L 0x55956cb1b590 | R (nil)}} "];
+	node_78 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b590 | {parent = 0x55956cb1b650} | {key | 15} | {L 0x55956cb1b530 | R 0x55956cb1b5f0}} "];
+	node_79 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b530 | {parent = 0x55956cb1b590} | {key | 13} | {L 0x55956cb1b500 | R 0x55956cb1b560}} "];
+	node_80 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b500 | {parent = 0x55956cb1b530} | {key | 12} | {L (nil) | R (nil)}} "];
+	node_79->node_80;
+	node_81 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b560 | {parent = 0x55956cb1b530} | {key | 14} | {L (nil) | R (nil)}} "];
+	node_79->node_81;
+	node_78->node_79;
+	node_82 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b5f0 | {parent = 0x55956cb1b590} | {key | 17} | {L 0x55956cb1b5c0 | R 0x55956cb1b620}} "];
+	node_83 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b5c0 | {parent = 0x55956cb1b5f0} | {key | 16} | {L (nil) | R (nil)}} "];
+	node_82->node_83;
+	node_84 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55956cb1b620 | {parent = 0x55956cb1b5f0} | {key | 18} | {L (nil) | R (nil)}} "];
+	node_82->node_84;
+	node_78->node_82;
+	node_77->node_78;
+	node_75->node_77;
+	node_73->node_75;
+	node_71->node_73;
+	node_70->node_71;
+	}
