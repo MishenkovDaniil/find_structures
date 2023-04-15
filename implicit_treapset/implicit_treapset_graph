@@ -1,0 +1,16 @@
+digraph
+{
+	node_0 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55795faa1790 | {priority = 11} | {size | 7} | {L 0x55795faa1760 | R 0x55795faa17f0}} "];
+	node_1 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55795faa1760 | {priority = 9} | {size | 2} | {L 0x55795faa16d0 | R (nil)}} "];
+	node_2 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55795faa16d0 | {priority = 5} | {size | 1} | {L (nil) | R (nil)}} "];
+	node_1->node_2;
+	node_0->node_1;
+	node_3 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55795faa17f0 | {priority = 6} | {size | 4} | {L (nil) | R 0x55795faa17c0}} "];
+	node_4 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55795faa17c0 | {priority = 4} | {size | 3} | {L (nil) | R 0x55795faa1700}} "];
+	node_5 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55795faa1700 | {priority = 3} | {size | 2} | {L 0x55795faa1730 | R (nil)}} "];
+	node_6 [shape = record, style = "filled", fillcolor = "lightblue", label = "{node 0x55795faa1730 | {priority = 2} | {size | 1} | {L (nil) | R (nil)}} "];
+	node_5->node_6;
+	node_4->node_5;
+	node_3->node_4;
+	node_0->node_3;
+	}
