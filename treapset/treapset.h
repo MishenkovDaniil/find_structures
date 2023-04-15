@@ -33,7 +33,7 @@ struct TreapSet *treapset_ctor ();
 struct TreapNode *treapnode_ctor (Tkey key, Tprior priority, struct TreapNode *left = nullptr, struct TreapNode *right = nullptr);
 struct TreapNode *Merge (struct TreapNode *treap_1, struct TreapNode *treap_2);
 struct TreapNode_pair Split (struct TreapNode *treapnode, Tkey key);
-void Insert (struct TreapSet *treapset, Tkey key, Tprior priority);
+void Insert (struct TreapSet *treapset, Tkey key, Tprior priority = rand());
 bool Erase (struct TreapSet *treapset, Tkey key);
 void treapnode_clear (struct TreapNode *node);
 void Treapset_dtor (struct TreapSet *treapset);
