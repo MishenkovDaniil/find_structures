@@ -52,6 +52,13 @@ struct Node *insert_node (struct Node *root, int key)
     return balance_tree (root);
 }   
 
+void Remove (struct Avl_tree *tree, int remove_key)
+{
+    assert (tree);
+
+    tree->root = remove (tree->root, remove_key);
+}
+
 struct Node *remove (struct Node *root, int remove_key)
 {
     if (!(root))
@@ -73,6 +80,7 @@ struct Node *remove (struct Node *root, int remove_key)
             root = root->left;
             
             free (old_root);
+            old_root = nullptr;
         }
     }
     else if (remove_key > root->key)
@@ -152,6 +160,7 @@ struct Node *remove_min (struct Node *root)
     root = root->right;
     
     free (old_root);
+    old_root = nullptr;
 
     return balance_tree (root);
 }

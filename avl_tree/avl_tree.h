@@ -21,6 +21,7 @@ struct Avl_tree
 
 struct Avl_tree *avl_tree_ctor ();
 void insert (struct Avl_tree *avl_tree, int key);
+void Remove (struct Avl_tree *tree, int remove_key);
 void avl_tree_dtor (struct Avl_tree *avl_tree);
 
 struct Node *node_ctor (int key);
